@@ -1,0 +1,22 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Quotes and summary match the runs
+        run: ./run.sh
+
+      - name: Summary check fails on a changed cell
+        run: |
+          sed -i 's/| 3 | момент ухода заказа на склад | 1 \/ 2 \/ 0/| 3 | момент ухода заказа на склад | 2 \/ 1 \/ 0/' summary.md
+          if python3 check_summary.py > /dev/null; then
+            echo "check_summary.py should fail on a changed cell"; exit 1
+          fi
+          git checkout -- summary.md
