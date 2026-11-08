@@ -3,6 +3,14 @@
 [![check](https://github.com/sproshchaev/llm-spec-blind-spots/actions/workflows/check.yml/badge.svg)](https://github.com/sproshchaev/llm-spec-blind-spots/actions/workflows/check.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+**Сергей Прощаев**
+
+[![Website](https://img.shields.io/badge/prosoft.pages.dev-blue?logo=googlechrome&logoColor=white)](https://prosoft.pages.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sproshchaev-0A66C2)](https://www.linkedin.com/in/sproshchaev/)
+[![Habr](https://img.shields.io/badge/Habr-sproshchaev-65A3BE?logo=habr&logoColor=white)](https://habr.com/ru/users/sproshchaev/)
+
+---
+
 Данные эксперимента к статье на Хабре
 «[Нейросеть пишет спецификацию интеграции и молча решает за аналитика](https://habr.com/ru/companies/otus/articles/1088892/)».
 
